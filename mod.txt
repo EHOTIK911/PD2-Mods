@@ -1,0 +1,10 @@
+{
+	"name" : "Old Crime Spree",
+	"description" : "",
+	"author" : "chalopai228 // Enotik // Dancer // oldschool",
+	"priority" : 0,
+	"hooks": [
+		{"hook_id" : "lib/tweak_data/crimespreetweakdata", "script_path" : "crimespreetweakdata.luac"},
+		{"hook_id" : "lib/managers/menu/infamytreeguinew", "script_path" : "infamytreeguinew.luac"}
+	]
+}
