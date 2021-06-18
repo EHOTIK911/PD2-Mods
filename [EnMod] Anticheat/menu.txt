@@ -1,0 +1,125 @@
+{
+	"menu_id" : "encmenu",
+	"parent_menu_id" : "blt_options",
+	"title" : "en_anticheat_title",
+	"description" : "en_anticheat_desc",
+	"back_callback": "en_anticheat_save",
+	"items" : [
+		{
+			"type" : "button",
+			"title" : "enc_title",
+		},
+		{
+			"type" : "divider",
+			"size" : 10
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_skilltest",
+			"title" : "enc_skilltest_title",
+			"description" : "enc_skilltest_desc",
+			"value" : "skilltest",
+			"callback" : "enc_skilltest_callback",
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_perktest",
+			"title" : "enc_perktest_title",
+			"description" : "enc_perktest_desc",
+			"value" : "perktest",
+			"callback" : "enc_perktest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_modtest",
+			"title" : "enc_modtest_title",
+			"description" : "enc_modtest_desc",
+			"value" : "modtest",
+			"callback" : "enc_modtest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_playerstat",
+			"title" : "enc_playerstat_title",
+			"description" : "enc_playerstat_desc",
+			"value" : "playerstat",
+			"callback" : "enc_playerstat_callback",
+			"default_value" : true,
+		},
+		
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_acv",
+			"title" : "enc_acv_title",
+			"description" : "enc_acv_desc",
+			"value" : "acv",
+			"callback" : "enc_acv_callback",
+			"default_value" : true,
+		},
+		
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_overkilltest",
+			"title" : "enc_overkilltest_title",
+			"description" : "enc_overkilltest_desc",
+			"value" : "overkilltest",
+			"callback" : "enc_overkilltest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_vactest",
+			"title" : "enc_vactest_title",
+			"description" : "enc_vactest_desc",
+			"value" : "vactest",
+			"callback" : "enc_vactest_callback",
+			"default_value" : false,
+		},
+		{
+			"type" : "divider",
+			"size" : 20
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "en_anticheat_chat",
+			"title" : "enc_chat_title",
+			"description" : "enc_chat_desc",
+			"callback" : "enc_chat_callback",
+			"items" : [
+				"enc_chat_item_a",
+				"enc_chat_item_b",
+				"enc_chat_item_c"
+						],
+			"value" : "chat"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "en_anticheat_punish",
+			"title" : "enc_punish_title",
+			"description" : "enc_punish_desc",
+			"callback" : "enc_punish_callback",
+			"items" : [
+				"enc_punish_item_a",
+				"enc_punish_item_b",
+				"enc_punish_item_c",
+				"enc_punish_item_d",
+				"enc_punish_item_e"
+						],
+			"value" : "punish"
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_anticheat_kick",
+			"title" : "enc_kick_title",
+			"description" : "enc_kick_desc",
+			"value" : "kick",
+			"callback" : "enc_kick_callback",
+			"default_value" : false,
+		},
+		
+	]
+}
+
+
